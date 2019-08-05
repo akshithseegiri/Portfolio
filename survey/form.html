@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <h1>Survey Form</h1><br><br>
+    <div class="style">
+
+    <form>
+        <div class="age3">
+        Name:<input autofocus type="text"name="name" class="input-field" placeholder="Enter your name" required></div><br>
+        <div class="age2">
+        Email:<input type="email" name="email" id="email" class="input-field" required placeholder="Enter your Email"></div><br>
+       <div class="age"> 
+            Age:    <input type="date"name="age" class="input-field"  required></div><br><br>
+            <p>
+        Gender:<br>
+        <input type="radio" name="Gender">Male<br>
+        <input type="radio"name="Gender">Female<br>
+        <input type="radio"name="Gender">Others<br><br>
+        Which option best describes your current role?<br>
+        <select>
+            <option value="Others">Others</option>
+            <option value="Student">Student</option>
+            <option value="Full Time Job">Full Time Job</option>
+            <option value="Full Time Learner">Full Time Learner</option>
+            <option value="Prefer not to say">Prefer not to say</option>
+        </select><br><br>
+        How likely is that you would recommend CoderHive to a friend?:<br>
+        <input type="radio" name=" How likely is that you would recommend CoderHive to a friend?">Definitely<br>
+        <input type="radio" name=" How likely is that you would recommend CoderHive to a friend?">Maybe<br>
+        <input type="radio" name=" How likely is that you would recommend CoderHive to a friend?">Not sure<br><br>
+         
+        What do you like most in Fcc:<br>
+        <select>
+            <option value="Challenges">Challenges</option>
+            <option value="Projects">Projects</option>
+            <option value="Community">Community</option>
+            <option value="Open Source">Open Source</option>
+
+        </select><br><br>
+
+       
+        Things that should be improved in the future (Check all that apply):<br>
+        <input type="checkbox">Font-end Projects<br>
+        <input type="checkbox">Back-end Projects<br>
+        <input type="checkbox">Data Visualization<br>
+        <input type="checkbox">Challenges<br>
+        <input type="checkbox">Open Source Community<br>
+        <input type="checkbox">Gitter help rooms<br>
+        <input type="checkbox">Videos<br>
+        <input type="checkbox">City Meetups<br>
+        <input type="checkbox">Wiki<br>
+        <input type="checkbox">Forum<br>
+        <input type="checkbox">Additional Courses<br><br>
+
+        Any Comments or Suggestions?<br>
+        <textarea id="comments" class="input-field" style="height:50px;resize:vertical;" name="comment" placeholder="Enter your comment here...."></textarea><br></p>
+        <div class="s3">
+        <button id="s2" type="submit">submit</button>
+        </div>
+    </form>
+    </div>
+</body>
+</html>
