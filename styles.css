@@ -12,6 +12,7 @@ nav{
     background-color:rgb(36, 81, 148);
     width: 100vw;
     object-fit: contain;
+    align-content: center;
     position: fixed;
     height: 7rem;
 }
