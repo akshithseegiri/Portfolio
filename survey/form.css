@@ -1,4 +1,6 @@
-
+.heading{
+    position: fixed;
+}
 h1{
     text-align: center;
     color: aliceblue;
@@ -35,6 +37,7 @@ p{
     width: 96px;
     border: 0px solid; 
     margin-left: 0%;
+    position: fixed;
 }
 .s3{
     text-align: center;;
