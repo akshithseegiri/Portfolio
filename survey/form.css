@@ -1,5 +1,4 @@
 .heading{
-    position: fixed;
     text-align: center;
 }
 h1{
@@ -38,7 +37,6 @@ p{
     width: 96px;
     border: 0px solid; 
     margin-left: 0%;
-    position: fixed;
     text-align: center;
 }
 .s3{
