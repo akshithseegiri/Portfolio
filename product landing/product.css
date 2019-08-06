@@ -191,7 +191,7 @@ a{
     padding:  5px;
 }
 @media (max-width: 550px){
-#features.desc {
+#features .desc {
     width: 100%;
     text-align: center;
     padding-top: 0px;
@@ -314,6 +314,7 @@ a{
 @media (max-width: 650px){
 .logo{
     margin-top: 15px;
+    margin-right: 35px;
     width: 100%;
     position: relative;
 }
@@ -331,6 +332,10 @@ a{
 @media (max-width: 650px){
  .logo > img{
      margin: 0 auto;
+     margin-top: 0px;
+     margin-right: auto;
+     margin-bottom: 0px;
+     margin-left: auto;
  }   
 }
 
