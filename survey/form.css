@@ -1,6 +1,7 @@
 .heading{
     display: flex;
     text-align: center;
+    padding-left: 40%;
 }
 h1{
     text-align: center;
@@ -18,8 +19,6 @@ p{
     text-align:left;
 }
 .style{
-    margin-left: 60px;
-    margin-right: 60px;
 
 }
 .input-field {
